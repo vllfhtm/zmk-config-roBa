@@ -88,8 +88,8 @@
         default_layer {
             bindings = <
 &kp Q         &kp W      &kp E           &kp R                 &kp T                                                  &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A         &kp S      &kp D           &kp F                 &kp G        &kp LS(LG(S))              &none          &kp H        &kp J  &kp K      &kp L      &lt 3 MINUS
-&kp Z         &kp X      &kp C           &kp V                 &kp B        &none                      &none          &kp N        &kp M  &mkp LCLK  &mkp RCLK  &lt 1 SLASH
+&kp A         &kp S      &lt 3 D         &kp F                 &kp G        &kp LS(LG(S))              &none          &kp H        &kp J  &lt 3 K    &kp L      &kp MINUS
+&kp Z         &kp X      &kp C           &kp V                 &kp B        &none                      &none          &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp SLASH
 &kp LEFT_WIN  &kp COMMA  &kp LANGUAGE_1  &mt RCTRL LANGUAGE_2  &lt 1 SPACE  &mt LEFT_SHIFT DELETE      &kp BACKSPACE  &lt 2 ENTER                               &mt LS(LCTRL) PERIOD
             >;
 
@@ -107,10 +107,10 @@
 
         symbol {
             bindings = <
-&kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN         &kp GREATER_THAN   &trans                      &trans  &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &kp TILDE
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE        &kp RIGHT_BRACE    &trans  &trans      &trans  &trans  &kp DOLLAR       &kp PERCENT   &kp LCTRL     &kp PIPE
-&kp SEMICOLON         &kp COLON              &kp LC(SINGLE_QUOTE)  &kp DOUBLE_QUOTES  &trans  &trans      &trans  &trans  &kp EXCLAMATION  &kp AT        &kp HASH      &kp BACKSLASH
-&none                 &trans                 &trans                &trans             &trans  &trans      &trans  &trans                                               &trans
+&kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN   &trans                      &trans  &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &kp TILDE
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans  &trans      &trans  &trans  &kp DOLLAR       &kp PERCENT   &kp LCTRL     &kp PIPE
+&kp SEMICOLON         &kp COLON              &kp SQT         &kp DOUBLE_QUOTES  &trans  &trans      &trans  &trans  &kp EXCLAMATION  &kp AT        &kp HASH      &kp BACKSLASH
+&none                 &trans                 &trans          &trans             &trans  &trans      &trans  &trans                                               &trans
             >;
         };
 
