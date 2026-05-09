@@ -108,7 +108,7 @@
         symbol {
             bindings = <
 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN   &trans                      &trans  &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &kp TILDE
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans  &trans      &trans  &trans  &kp DOLLAR       &kp PERCENT   &kp LCTRL     &kp PIPE
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans  &trans      &trans  &trans  &kp DOLLAR       &kp PERCENT   &kp CARET     &kp PIPE
 &kp SEMICOLON         &kp COLON              &kp SQT         &kp DOUBLE_QUOTES  &trans  &trans      &trans  &trans  &kp EXCLAMATION  &kp AT        &kp HASH      &kp BACKSLASH
 &none                 &trans                 &trans          &trans             &trans  &trans      &trans  &trans                                               &trans
             >;
